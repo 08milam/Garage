@@ -1,23 +1,44 @@
+<!-- 
+PORJECT NAME: Car OO Challenge
+FILE: index.html
+DATE: 1/9/24
+MOD DATE: 
+MOD CHANGES: 
+MOD LINE: 
+VERSION: 0.0.1
+PROGRAMER: Charles Matthew Milam Jr
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sytle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sytle.css" />
     <title>Document</title>
-</head>
-<h1>Car OO Challenge</h1>
-<form id="form">
-    <input id="make" type="text" placeholder="Make">
-    <input id="model" type="text" placeholder="Model">
-    <input id="year" type="number" placeholder="Year">
-    <button>submit</button>
-</form>
+  </head>
+  <body>
+    <h1>Welcome to Car OO Challenge</h1>
 
-<h2 id="output"></h2>
-<p>Must have console open to see results</p>
+    <select name="" id="type">
+      <option value="empty">Select a vehicle</option>
+      <option value="motorcycle">Motorcycle</option>
+      <option value="car">car</option>
+    </select>
+    <input id="make" type="text" placeholder="Make" />
+    <input id="model" type="text" placeholder="Model" />
+    <input id="year" type="text" placeholder="Year" />
+    <button id="submitBtn">submit</button>
 
-<body>
+    <form id="numberCapacity">
+      <p>copacity for garage 3</p>
+      <!-- <input id="capacity" type="text" placeholder="capacity" />
+      <button>submit</button> -->
+    </form>
+
+    <div id="output"></div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
