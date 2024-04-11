@@ -1,0 +1,55 @@
+/* 
+PORJECT NAME: Car OO Challenge
+FILE: style.html
+DATE: 1/9/24
+MOD DATE: 
+MOD CHANGES: 
+MOD LINE: 
+VERSION: 0.0.1
+PROGRAMER: Charles Matthew Milam Jr
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ */
+
+body {
+  color: rgb(61, 62, 62);
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+select {
+  width: 115px;
+  height: 30px;
+}
+
+input {
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+}
+
+#submitBtn {
+  width: 112px;
+  height: 25px;
+  padding: 5px;
+}
+
+input {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+.vBlock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  height: 30px;
+}
+
+.vBlock:nth-child(3n + 3) {
+  margin-bottom: 10px;
+  border-radius: 0 0 5px 5px;
+}
